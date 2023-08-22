@@ -1,0 +1,292 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --------------------- MAIN Container and NAV SECTION ------------------*/
+.main-section-container {
+    background-color: rgba(0, 0, 0, 0.923);
+    /* background-image: url("../images/dark-wallpaper.jpg"); */
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0 ;
+    height: 100px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    width: 500px;
+    margin: 15px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+.nav-link:hover {
+    color: gold;
+}
+
+.image-logo { 
+    height: 80px;
+    margin: 5px;    
+}
+
+
+/* -------------- MAIN AREA Section -----------------------*/
+
+.main-area-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    margin-left: 80px;
+    margin-bottom: 250px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0px;
+    padding-top: 150px;
+    text-decoration: none;
+    color: white;
+    transition: color 2s;
+}
+
+h1:hover {
+    color: gold;
+}
+
+p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* -------------- Side-links Section -----------------------*/
+
+
+.side-section {
+    margin: 15px;
+    display: grid;
+}
+
+.side-links {
+    text-decoration: none;
+}
+
+.side-images {
+    transition: fill 1s;
+}
+
+.side-images:hover {
+    fill: gold;
+}
+
+/* -----------------  ABOUT Section ------------*/
+
+.about-section-container {
+    background-color: white;
+    /* background-image: url("../images/white-wallpaper.png"); */
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+.my-face {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* -----------------  PROJECTS Section ------------*/
+
+.project-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: bisque;
+}
+
+.project-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card-justyn {
+    width: 950px;
+    height: 950px;
+    box-shadow: 5px 5px 20px black;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.782);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.project-card-mcd, .project-card-ht, .project-card-group-project, .project-card-group-project-2  {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.782);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.project-text {
+    font-size: 15px;
+    font-weight: 300px;
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+
+
+
+
+
+.project-image-justyn {
+    width: 550px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.project-image-justyn:hover {
+    filter: drop-shadow(16px 16px 20px blue) opacity(50%);
+}
+
+.project-image-mcd {
+    width: 225px;
+    margin-top: 20px; 
+}
+
+.project-image-mcd:hover {
+    filter: drop-shadow(16px 16px 20px blue) opacity(50%);
+}
+
+.project-image-ht {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.project-image-ht:hover {
+    filter: drop-shadow(16px 16px 20px blue) opacity(50%);
+}
+
+.project-image-group-project {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.project-image-group-project:hover {
+    filter: drop-shadow(16px 16px 20px blue) opacity(50%);
+}
+
+.project-image-group-project-2 {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.project-image-group-project-2:hover {
+    filter: drop-shadow(16px 16px 20px blue) opacity(50%);
+}
+
+
+
+
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.project-links {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.justyn-link, .mvnp-link, .anthology-link {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    transition: color 0.5s;
+}
+
+.justyn-link:hover, .mvnp-link:hover, .anthology-link:hover {
+    color: red;
+}
+
+
+/* ----------------- Footer Section ---------------------------*/
+
+.contact-section-container {
+    height: 300px;
+    background-color: black;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    right: 40px;
+}
+
+.image-logo-footer { 
+    height: 100px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+.footer-links:hover {
+    color: gold;
+}
+
+/* ----------------- @MEDIA Screen Adjustments Section ---------------------------*/
+
+@media screen and (max-width: 992px) {
+    .project-area {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

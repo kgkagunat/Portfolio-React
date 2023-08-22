@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.a2c2c1b0.css",
+    "main.js": "/Portfolio-React/static/js/main.616c68f0.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Portfolio-React/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Down-on-the-sidewalk-in-waikiki.png": "/Portfolio-React/static/media/Down-on-the-sidewalk-in-waikiki.b15b0edd8ef55bfe9c56.png",
+    "static/media/Screen Shot 2023-03-26 at 8.30.43 PM.png": "/Portfolio-React/static/media/Screen Shot 2023-03-26 at 8.30.43 PM.57f6f1e4aeafebfebd8a.png",
+    "static/media/Vacation Planner Website.png": "/Portfolio-React/static/media/Vacation Planner Website.7eb7bfb0edead4e82175.png",
+    "static/media/dark-wallpaper.jpg": "/Portfolio-React/static/media/dark-wallpaper.218012805b56309bbf57.jpg",
+    "static/media/white-wallpaper.png": "/Portfolio-React/static/media/white-wallpaper.b738989e249cdcfb47a6.png",
+    "static/media/Hawaiian-Telcom.jpg": "/Portfolio-React/static/media/Hawaiian-Telcom.803dbb1cd8c9288b5836.jpg",
+    "static/media/management-portal.png": "/Portfolio-React/static/media/management-portal.e1fa7a5b9aaebf0f0c8b.png",
+    "static/media/K.A.-logo.jpeg": "/Portfolio-React/static/media/K.A.-logo.8553738c3d923b996886.jpeg",
+    "static/media/MCD-Hawaii.jpg": "/Portfolio-React/static/media/MCD-Hawaii.5ca5f50cc6a333526e96.jpg",
+    "index.html": "/Portfolio-React/index.html",
+    "main.a2c2c1b0.css.map": "/Portfolio-React/static/css/main.a2c2c1b0.css.map",
+    "main.616c68f0.js.map": "/Portfolio-React/static/js/main.616c68f0.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Portfolio-React/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c2c1b0.css",
+    "static/js/main.616c68f0.js"
+  ]
+}

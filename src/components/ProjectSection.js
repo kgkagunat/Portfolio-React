@@ -5,6 +5,7 @@ import ImageMcd from '../images/MCD-Hawaii.jpg';
 import ImageHt from '../images/Hawaiian-Telcom.jpg';
 import ImageGroupProject from '../images/Vacation Planner Website.png';
 import ImageGroupProject2 from '../images/management-portal.png';
+import ImageGroupProject3 from '../images/bobaProject.png';
 
 
 function ProjectSection() {
@@ -69,6 +70,18 @@ function ProjectSection() {
                     <h3>Management-Portal</h3>
                     <p className="project-text">
                         This was a collaborative group project with my classmates in my bootcamp from UC Davis Bootcamp. Built for managers/ceo to manage their departments, jobs, and employees. Ability to create, edit, and delete. To login use this Username: JohnDoe@test.com -- Password: test1234
+                    </p>
+                    <hr />
+                </div>
+
+                {/* Project Card - Group Project 3 */}
+                <div className="project-card-group-project-2">
+                    <a className="project-links" href="https://bobahavenfinal-8d2e89fa244b.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img className="project-image-group-project-2" src={ImageGroupProject3} alt="Management-Portal" />
+                    </a>
+                    <h3>Bubble Haven</h3>
+                    <p className="project-text">
+                        This was a collaborative group project with my classmates in my bootcamp from UC Davis Bootcamp. Build for users to login/signup to the website. Users can buy/add/delete drinks. Also has a special audio visualizer.
                     </p>
                     <hr />
                 </div>
